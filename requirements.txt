@@ -1,0 +1,11 @@
+# Sentinel Shield — Runtime Dependencies
+# Python 3.8+ required
+
+# Core TUI / console rendering
+rich>=13.0
+
+# Optional: PE (EXE/DLL) deep analysis on Windows targets.
+# If absent, Sentinel Shield prints a single warning and continues
+# with the other detection stages. Listed as a hard requirement
+# so a fresh `pip install -r requirements.txt` gives full coverage.
+pefile>=2023.0.0
